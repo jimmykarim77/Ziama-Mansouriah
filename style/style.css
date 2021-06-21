@@ -842,6 +842,10 @@ body{
 /********for tall screens on mobile or descktop**/
 @media screen and (min-height: 721px){
     body{
-
+        margin: 0;
+    }
+    .home__container,
+    .home__img{
+        height: 640px;
     }
 }
