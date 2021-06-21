@@ -154,3 +154,6 @@ sr.reveal(`.about__img-overlay , .video__content, .subscribe__form `,{
     origin: 'right',
     interval:100,
 })
+
+/////////////video slide
+
