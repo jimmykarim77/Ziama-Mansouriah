@@ -674,6 +674,7 @@ color: var(--text-color-light);
     }
 
 }
+
 @media screen and (min-width:768px){
 body{
     margin: 0;
@@ -757,11 +758,7 @@ body{
 .about__description{
     margin-bottom: var(--mb-2);
 }
-.discover__container{
-    width: 610px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .discover__container,
 .place__container{
     padding-top: 2rem;
