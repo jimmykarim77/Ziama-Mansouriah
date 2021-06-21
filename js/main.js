@@ -132,3 +132,25 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+///scroll reveal
+const sr = ScrollReveal({
+    distance: '60px',
+    duration: 2800,
+
+})
+sr.reveal(`.home__data, .home__social-link, .home__info,
+   .discover__container, .place__card`,{
+  origin: 'top',
+  interval: 100,
+})
+
+sr.reveal(`.about__data, .video__description, .subscribe__description`,{
+    origin: 'left',
+})
+
+sr.reveal(`.about__img-overlay , .video__content, .subscribe__form `,{
+    origin: 'right',
+    interval:100,
+})
