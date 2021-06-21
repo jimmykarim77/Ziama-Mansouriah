@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-----------------favicon------------------->
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="icon">
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+     <!------------------------swiper-------->
+    <link rel="stylesheet" href="style/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Ziama Mansouriah</title>
+</head>
+<body>
+ <header class="header" id="header">
+     <nav class="nav container">
+         <a href="" class="nav__logo">ZIAMA</a>
+         <div class="nav__menu" id="nav-menu">
+             <ul class="nav__list">
+                 <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">Home</a>
+                 </li>
+                 <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#discover" class="nav__link">Discover</a>
+                </li>
+              
+                <li class="nav__item">
+                    <a href="#place" class="nav__link">Place</a>
+                </li>
+             </ul>
+
+             <div class="nav__dark">
+                 <span class="change-theme-name">Dark mode</span>
+                 <i class="ri-moon-line change-theme" id="theme-button"></i>
+             </div>
+
+
+             <i class="ri-close-circle-line nav__close" id="nav-close"></i>
+         </div>
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-function-fill"></i>
+         </div>
+     </nav>
+ </header> 
+ <main class="main">
+ <!------------------home------------------->
+ <section class="home" id="home">
+<img src="img/port-ziama.JPG" alt="" class="home__img">
+<div class="home__container container grid">
+    <div class="home__data">
+        <span class="home__data-subtitle">
+            Discover your place
+        </span>
+        <h1 class="home__data-title">
+            Explore The <br> Best <b>Beautiful  <br> Beaches</b>
+        </h1>
+        <a href="#" class="button">Explore</a>
+    </div>
+    <div class="home__social">
+        <a href="https://web.facebook.com/karim.hamimeche.7/" target="_blank" class="home__social-link">
+            <i class="ri-facebook-box-fill"></i>
+        </a>
+        <a href="https://www.instagram.com/krimo_jimmy/" target="_blank" class="home__social-link">
+            <i class="ri-instagram-fill"></i> 
+        </a>
+        <a href="https://www.linkedin.com/in/karim-hamimeche-a52b53157/" target="_blank" class="home__social-link">
+            <i class="ri-linkedin-box-fill"></i>
+        </a>
+    </div>
+    <div class="home__info">
+        <div>
+            <span class="home__info-title">5 best place to visite</span>
+            <a href="" class="button button--flex button--link home__info-button">
+                more
+                <i class="ri-arrow-right-line"></i>
+            </a>
+        </div>
+        <div class="home__info-overlay">
+            <img src="img/ziama kabou.jpg" alt="" class="home__info-img">
+        </div>
+    </div>
+</div>
+
+ </section>
+<!-------------------about------------------->
+<section class="about section" id="about">
+    <div class="about__container container grid">
+        <div class="about__data">
+            <h1 class="section__title about__title">
+                More Information <br> About The Best Beaches
+            </h1>
+            <p class="about__description">
+                You can find the most Beautiful and pleasant place at the best
+                price with special discounts, you choose the place we will guide you
+                all the way to wait, get your place now.
+            </p>
+            <a href="#" class="button"> Reserve a Place</a>
+        </div>
+        <div class="about__img">
+            <div class="about__img-overlay">
+                <img src="img/page-rouge2.JPG" alt="" class="about__img-one">
+            </div>
+
+            <div class="about__img-overlay">
+                <img src="img/ziama-fabrika.JPG" alt="" class="about__img-two">
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------discover---------------->
+<section class="discover section" id="discover">
+    <h2 class="section__title">
+        Discover the most <br> attractive places
+    </h2>
+    <div class="discover__container container swiper-container">
+        <div class="swiper-wrapper">
+            <div class="discover__card swiper-slide">
+                <img src="img/aftis2.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">Aftis</h2>
+                    <span class="discover__description">
+                        the aftis boat
+                    </span>
+                </div>
+            </div>
+
+            <div class="discover__card swiper-slide">
+                <img src="img/les grotte.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">the wonderful caves</h2>
+                    <span class="discover__description">
+                        good place to take pictures and swim
+                    </span>
+                </div>
+            </div>
+
+            <div class="discover__card swiper-slide">
+                <img src="img/plage rouge14.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">The Red Beach</h2>
+                    <span class="discover__description">
+                        the golden sands of this beach make you want to camp
+                    </span>
+                </div>
+            </div>
+
+            <div class="discover__card swiper-slide">
+                <img src="img/port-ziama 2.jpg" alt="" class="discover__img">
+                <div class="discover__data">
+                    <h2 class="discover__title">ziama fishing port</h2>
+                    <span class="discover__description">
+                        take pictures with your friends on the fishing boat
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------video-------------------->
+ <section class="video section" id="video">
+  <h2 class="section__title">Video Tour</h2>
+  <div class="video__container container">
+      <p class="video__description">
+          Find out more our video of the most Beautiful and pleasant
+          places for you and your family.
+      </p>
+
+      <div class="video__content">
+          <video id="video-file">
+              <source  src="video/video1.mp4" type="video/mp4"> 
+          </video>
+
+                <button class="button button--flex video__button" id="video-button">
+                    <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                </button>
+        
+      </div>
+  </div>
+ </section>
+<!--------------------------places-------------->
+<section class="place section" id="place">
+   <h2 class="section__title">Choose Your Place</h2>
+   <div class="place__container container grid">
+       <div class="place__card">
+           <img src="img/place1.jpg" alt="" class="place__img">
+           <div class="place__content">
+               <span class="place__rating">
+                <i class="ri-star-line place__rating-icon"></i>
+                <span class="place__rating-number">5.0</span>
+               </span>
+               <div class="place__data">
+                   <h3 class="place__title">the wonderful caves</h3>
+                   <span class="place__subtitle">Ziama</span>
+                   <span class="place__location">JIJEL</span>
+               </div>
+           </div>
+           <button class="button button--flex place__button">
+            <i class="ri-arrow-right-line"></i>
+           </button>
+       </div>
+
+       <div class="place__card">
+        <img src="img/place4.jpg" alt="" class="place__img">
+        <div class="place__content">
+            <span class="place__rating">
+             <i class="ri-star-line place__rating-icon"></i>
+             <span class="place__rating-number">4.8</span>
+            </span>
+            <div class="place__data">
+                <h3 class="place__title">Aftis</h3>
+                <span class="place__subtitle">Ziama</span>
+                <span class="place__location">JIJEL</span>
+            </div>
+        </div>
+        <button class="button button--flex place__button">
+         <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+
+    <div class="place__card">
+        <img src="img/place5.jpg" alt="" class="place__img">
+        <div class="place__content">
+            <span class="place__rating">
+             <i class="ri-star-line place__rating-icon"></i>
+             <span class="place__rating-number">4.5</span>
+            </span>
+            <div class="place__data">
+                <h3 class="place__title">the village of ziama </h3>
+                <span class="place__subtitle">Ziama</span>
+                <span class="place__location">JIJEL</span>
+            </div>
+        </div>
+        <button class="button button--flex place__button">
+         <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+
+    <div class="place__card">
+        <img src="img/place3.jpg" alt="" class="place__img">
+        <div class="place__content">
+            <span class="place__rating">
+             <i class="ri-star-line place__rating-icon"></i>
+             <span class="place__rating-number">4.3</span>
+            </span>
+            <div class="place__data">
+                <h3 class="place__title">Gerouche</h3>
+                <span class="place__subtitle">TAZA</span>
+                <span class="place__location">JIJEL</span>
+            </div>
+        </div>
+        <button class="button button--flex place__button">
+         <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+
+    <div class="place__card">
+        <img src="img/place2.jpg" alt="" class="place__img">
+        <div class="place__content">
+            <span class="place__rating">
+             <i class="ri-star-line place__rating-icon"></i>
+             <span class="place__rating-number">4.0</span>
+            </span>
+            <div class="place__data">
+                <h3 class="place__title">Erragene</h3>
+                <span class="place__subtitle">Ziama</span>
+                <span class="place__location">JIJEL</span>
+            </div>
+        </div>
+        <button class="button button--flex place__button">
+         <i class="ri-arrow-right-line"></i>
+        </button>
+    </div>
+   </div>
+</section>
+<!--------------------------subscribe------------>
+<section class="subscribe section">
+    <div class="subscribe__bg">
+    <div class="subscribe__container container">
+        <h2 class="section__title subscribe__title">
+            Subscribe Our <br> Newsletter
+        </h2>
+        <p class="subscribe__description">
+            Subscribe to our newsletter and get a special 30% discounts.
+        </p>
+        <form action="" class="subscribe__form">
+            <input type="text" placeholder="Enter Email" class="subscribe__input">
+            <button class="button"> Subscribe</button>
+        </form>
+    </div>
+</div>
+</section>
+ </main>
+ <!-------------------------footer-------------->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div class="footer__content grid">
+            <div class="footer__data">
+                <h3 class="footer__title">Ziama Mansouriah</h3> 
+            <p class="footer__description">Ziama is the best place in the summer</p>
+           <div>
+               <a href="https://web.facebook.com/karim.hamimeche.7/" target="_blank" class="footer__social">
+                <i class="ri-facebook-box-fill"></i>
+               </a>
+               <a href="https://www.instagram.com/krimo_jimmy/" target="_blank" class="footer__social">
+                <i class="ri-instagram-fill"></i> 
+               </a>
+               <a href="https://www.linkedin.com/in/karim-hamimeche-a52b53157/" target="_blank" class="footer__social">
+                <i class="ri-linkedin-box-fill"></i>
+               </a>
+               <a href="#" target="_blank" class="footer__social">
+                <i class="ri-youtube-fill"></i>
+               </a>
+           </div>
+        </div>
+        <div class="footer__data">
+            <h3 class="footer__subtitle">About</h3>
+            <ul>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">About Us</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Features</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">News and Blog</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="footer__data">
+            <h3 class="footer__subtitle">Company</h3>
+            <ul>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Team</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Plan y pricing</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Become a member</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__data">
+            <h3 class="footer__subtitle">Support</h3>
+            <ul>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">FAQs</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Support center</a>
+                </li>
+                <li class="footer__item">
+                    <a href="#" class="footer__link">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer__right">
+        <p class="footer__copy">&#169; 2021 HAMIMECHE KARIM. All right reserved.</p>
+        <div class="footer__terms">
+            <a href="#" class="footer__terms-link">Terms & Agreements</a>
+            <a href="#" class="footer__terms-link">Privacy Policy</a>
+        </div>
+    </div>
+    </div>
+</footer>
+
+<!-------------------scroll up------------->
+<a href="" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-fill scrollup__icon"></i>
+</a>
+
+
+<!-----------------script---------->
+<script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
