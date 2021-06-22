@@ -49,29 +49,7 @@ var swiper = new Swiper(".discover__container", {
     },
   });
 
-  //video play
-  const videoFile =document.getElementById("video-file"),
-  videoButton = document.getElementById("video-button"),
-  videoIcon = document.getElementById("video-icon")
-  function playPause(){
-      if(videoFile.paused){
-          videoFile.play()
-          videoIcon.classList.add("ri-pause-line")
-          videoIcon.classList.remove("ri-play-line")
-      }else{
-          videoFile.pause()
-          videoIcon.classList.add("ri-play-line")
-          videoIcon.classList.remove("ri-pause-line")
-      }
-  }
-  videoButton.addEventListener("click", playPause)
-
-  function finalVideo(){
-      videoIcon.classList.remove("ri-pause-line")
-      videoIcon.classList.add("ri-play-line")
-  }
-  videoFile.addEventListener("ended", finalVideo)
-
+  
   //show scrollup button
   function scrollUp(){
     const scrollUp = document.getElementById('scroll-up');
@@ -155,5 +133,17 @@ sr.reveal(`.about__img-overlay , .video__content, .subscribe__form `,{
     interval:100,
 })
 
-/////////////video slide
 
+
+
+///video section
+
+const clip = document.querySelectorAll(".clip")
+for(let i = 0; i< clip.length; i++){
+    clip[i].addEventListener('mouseenter',(e)=>{
+      clip[i].play()
+    })
+    clip[i].addEventListener('mouseout',(e)=>{
+        clip[i].pause()
+      })
+}
